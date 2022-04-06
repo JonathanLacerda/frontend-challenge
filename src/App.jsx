@@ -15,7 +15,7 @@ function App() {
 	},[])
 
   return (
-		<section className='bg-yellow'>
+		<section className='bg-black'>
 			<GlobalStyle />
 			<div className="flex justify-center">
 				<h1 className="font-bold text-2xl text-blue-900">
