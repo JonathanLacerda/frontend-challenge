@@ -9,20 +9,20 @@ import api from './services/api';
 function App() {
 
 	useEffect(() => {
-		api().then((res) => {
+		api('people/').then((res) => {
 			console.log(res);
 		});
 	},[])
 
   return (
-		<>
+		<section className='bg-yellow'>
 			<GlobalStyle />
 			<div className="flex justify-center">
 				<h1 className="font-bold text-2xl text-blue-900">
 					React and Tailwind with Vitejs!
 				</h1>
 			</div>
-		</>
+		</section>
   )
 }
 

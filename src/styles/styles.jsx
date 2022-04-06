@@ -1,7 +1,6 @@
 import styled, {createGlobalStyle} from 'styled-components';
 import { yellow, black } from './variables';
 
-
 export const GlobalStyle = createGlobalStyle`
 	html,
 	body {
@@ -14,7 +13,6 @@ export const GlobalStyle = createGlobalStyle`
             sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        background-color: ${yellow};
 	}
 `
 

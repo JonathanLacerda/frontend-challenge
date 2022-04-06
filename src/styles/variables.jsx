@@ -11,5 +11,3 @@ export const grey = {
     background: '#303030',
     border: '#5d5d5d'
 }
-
-
