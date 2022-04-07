@@ -7,9 +7,9 @@ import {
 } from "react-router-dom"
 import './index.css'
 import App from './App'
-import Films from "./routes/films/films";
-import Char from "./routes/char/char";
-import Register from "./routes/register/register";
+import Films from "./pages/films/films";
+import Char from "./pages/char/char";
+import Register from "./pages/register/register";
 
 import { GlobalStyle } from './styles/styles'
 import Header from './components/header/header'
